@@ -4,17 +4,17 @@ metadata:
   name: voting-app
   namespace: argocd
 spec:
-  project: voting-app
+  project: default
   source:
-    repoURL: https://github.com/Vismaya582/voting-app
+    repoURL: https://github.com/Vismaya582/voting-k8s
     targetRevision: HEAD
-    path: 
+    path: charts/voting-app
     helm:
       valueFiles:
       - values.yaml
   destination:
-    server: 
-    namespace: 
+    server: https://kubernetes.default.svc
+    namespace: vote
   syncPolicy:
     automated:
       prune: true
