@@ -1,0 +1,14 @@
+vote:
+  image:
+    repository: 098567765340.dkr.ecr.ap-south-1.amazonaws.com/voting-vote
+    tag: latest
+
+result:
+  image:
+    repository: 098567765340.dkr.ecr.ap-south-1.amazonaws.com/voting-result
+    tag: latest
+
+worker:
+  image:
+    repository: 098567765340.dkr.ecr.ap-south-1.amazonaws.com/voting-worker
+    tag: latest
