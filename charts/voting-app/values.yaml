@@ -1,14 +1,14 @@
 vote:
   image:
     repository: 098567765340.dkr.ecr.ap-south-1.amazonaws.com/voting-vote
-    tag: latest
+    tag: 44257afac6fc91d9239d37775b7ed65e1eccab8d
 
 result:
   image:
     repository: 098567765340.dkr.ecr.ap-south-1.amazonaws.com/voting-result
-    tag: latest
+    tag: 44257afac6fc91d9239d37775b7ed65e1eccab8d
 
 worker:
   image:
     repository: 098567765340.dkr.ecr.ap-south-1.amazonaws.com/voting-worker
-    tag: latest
+    tag: 44257afac6fc91d9239d37775b7ed65e1eccab8d
