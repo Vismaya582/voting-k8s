@@ -1,14 +1,14 @@
 vote:
   image:
     repository: 098567765340.dkr.ecr.ap-south-1.amazonaws.com/voting-vote
-    tag: e329112a41aa1a351cc5ec52d3bc2cc2e43c04a6
+    tag: 8d64ee6fc84ee80c30008621093074b0cae6709b
 
 result:
   image:
     repository: 098567765340.dkr.ecr.ap-south-1.amazonaws.com/voting-result
-    tag: e329112a41aa1a351cc5ec52d3bc2cc2e43c04a6
+    tag: 8d64ee6fc84ee80c30008621093074b0cae6709b
 
 worker:
   image:
     repository: 098567765340.dkr.ecr.ap-south-1.amazonaws.com/voting-worker
-    tag: e329112a41aa1a351cc5ec52d3bc2cc2e43c04a6
+    tag: 8d64ee6fc84ee80c30008621093074b0cae6709b
